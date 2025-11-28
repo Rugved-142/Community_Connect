@@ -47,11 +47,6 @@
             <version>1.0.2</version>
         </dependency>
         <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-        <dependency>
             <groupId>com.twilio.sdk</groupId>
             <artifactId>twilio</artifactId>
             <version>8.30.0</version>
