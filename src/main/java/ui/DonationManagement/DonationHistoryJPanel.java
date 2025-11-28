@@ -60,7 +60,7 @@ public class DonationHistoryJPanel extends javax.swing.JPanel {
                     if(donation.getDonor().getLoginName().equals(donor.getLoginName())){
                         Object[] row ={
                             donation.getDonationId(),
-                            String.format("$%.2f", donation.getAmount()),
+                            "$%.2f".formatted(donation.getAmount()),
                             donation.getTimestamp().format(DateTimeFormatter.ofPattern("MM/dd/yyyy"))
                         };
                         model.addRow(row);
@@ -79,7 +79,7 @@ public class DonationHistoryJPanel extends javax.swing.JPanel {
         }
         model.addRow(new Object[]{
             "Total",
-            String.format("$%.2f", total),
+            "$%.2f".formatted(total),
             ""
         });
     }

@@ -222,7 +222,7 @@ public class NewDonationJPanel extends javax.swing.JPanel {
             
             donationOrg.processNewDonation(amount, donor);
             
-            String message = String.format("Thank you for your donation of $%.2f\n" + "Total funds available: $%.2f",amount, donationOrg.getResource().getAvailableFunds());
+            String message = ("Thank you for your donation of $%.2f\n" + "Total funds available: $%.2f").formatted(amount, donationOrg.getResource().getAvailableFunds());
             JOptionPane.showMessageDialog(this, message, "Donation Successful", JOptionPane.INFORMATION_MESSAGE);
             JOptionPane.showMessageDialog(this, donationOrg.getResource().getAvailableFunds(), "Donation Successful", JOptionPane.INFORMATION_MESSAGE);
             txtDonationAmt.setText("");

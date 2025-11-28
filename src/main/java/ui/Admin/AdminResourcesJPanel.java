@@ -222,7 +222,7 @@ public class AdminResourcesJPanel extends javax.swing.JPanel {
         
         for (DonationHistory dh : resource.getDonationHistory()) {
                 Object[] row ={
-                            String.format("$%.2f", dh.getAmount()),
+                    "$%.2f".formatted(dh.getAmount()),
                             dh.getTimestamp()
                         };
                         tableModel.addRow(row);        
