@@ -385,7 +385,7 @@ public class DistributionResourceJPanel extends javax.swing.JPanel {
                 return;
             }
 
-            txtAvailableRes.setText(String.format("$%.2f", resource.getAvailableFunds()));
+            txtAvailableRes.setText("$%.2f".formatted(resource.getAvailableFunds()));
         } catch (Exception e) {
             txtAvailableRes.setText("$0.00");
             System.err.println("Error updating available resources: " + e.getMessage());
