@@ -1,9 +1,9 @@
-# Volunteer and Donation Management System 🤝
+# Community Connect 🤝
 
 [![Java](https://img.shields.io/badge/Java-21%20LTS-orange.svg)](https://openjdk.java.net/)
 [![Maven](https://img.shields.io/badge/Maven-3.x-blue.svg)](https://maven.apache.org/)
 
-A **enterprise-grade Java desktop application** engineered to revolutionize charitable operations through a sophisticated multi-organizational network architecture. This system implements advanced **domain-driven design principles** and **role-based access control** to enable seamless coordination of volunteer activities, real-time donation processing, and intelligent aid distribution across multiple enterprises.
+**Community Connect** is an enterprise-grade Java desktop application engineered to revolutionize charitable operations through a sophisticated multi-organizational network architecture. This system implements advanced **domain-driven design principles** and **role-based access control** to enable seamless coordination of volunteer activities, real-time donation processing, and intelligent aid distribution across multiple enterprises.
 
 **🎯 Key Impact**: Reduces administrative overhead by 60% while increasing cross-organizational collaboration efficiency through automated workflows and real-time resource tracking.
 
@@ -89,8 +89,8 @@ Network
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/rugvedgundawar/Volunteer_and_Donation_Management_System.git
-cd Volunteer_and_Donation_Management_System-main
+git clone https://github.com/rugvedgundawar/Community_Connect.git
+cd Community_Connect
 ```
 
 ### 2. Verify Java Installation
@@ -130,7 +130,7 @@ mvn package
 mvn exec:java -Dexec.mainClass="ui.MainJFrame"
 
 # Method 2: Using JAR file
-java -jar target/VolunteerDonationManagement-1.0-SNAPSHOT.jar
+java -jar target/Community_Connect-1.0-SNAPSHOT.jar
 ```
 
 ### 🔧 Troubleshooting
@@ -292,8 +292,8 @@ src/main/java/
 <!-- Complete POM.XML Configuration -->
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.volunteerms</groupId>
-    <artifactId>VolunteerDonationManagement</artifactId>
+    <groupId>com.communityconnect</groupId>
+    <artifactId>Community_Connect</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -346,7 +346,7 @@ src/main/java/
 #### Environment Variables
 ```bash
 # Core Application Settings
-APP_NAME="Volunteer Management System"
+APP_NAME="Community Connect"
 APP_VERSION="1.0.0"
 ENVIRONMENT="development"
 

@@ -78,7 +78,7 @@ public class LoginPageJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
 
         lblTitle.setFont(new java.awt.Font("Sora ExtraBold", 1, 18)); // NOI18N
-        lblTitle.setText("<html>Volunteer & Donation Management</html>");
+        lblTitle.setText("<html>Community Connect</html>");
 
         lblUsername.setText("Username:");
 

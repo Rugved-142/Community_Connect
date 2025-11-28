@@ -10,7 +10,7 @@ import DataConfiguration.Network;
  *
  * @author sarthak deshmukh
  */
-public class VolunteerDonationManagement {
+public class CommunityConnect {
     
     public Network initialize(){
 //        Network network = new Network();
@@ -18,6 +18,6 @@ public class VolunteerDonationManagement {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Welcome to Community Connect!");
     }
 }
